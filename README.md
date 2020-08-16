@@ -1,5 +1,5 @@
 # Disaster Response Pipeline
-Analyzing disaster data from Figure Eight (acquired by [Appen](https://appen.com/) in 2019) to build a machine learning pipeline that categorizes these events with the goal of distributing messages to the appropriate disaster relief agencies
+Analyzing disaster data from Figure Eight (acquired by [Appen](https://appen.com/) in 2019) to build a machine learning pipeline that categorizes these events with the goal of distributing messages to the appropriate disaster relief agencies.
 
 ## Project Overview
 The code is designed to initiate a web app for emergency operators to exploit during a disaster response. The web app classifies messages (from news outlets, websites, social media) and sorts them into categories for redistribution to appropriate disaster relief agencies.  
@@ -33,6 +33,14 @@ This repository was written in HTML and python and requires the following Python
     `python run.py`
 
 3. Go to http://0.0.0.0:3001/ or go to http://localhost:3001/
+
+## Web App Screenshots
+Below are visuals of what to expect when the web app is successfully run. 
+
+<img width="1215" alt="Screen Shot 2020-08-15 at 9 15 29 PM" src="https://user-images.githubusercontent.com/66285135/90326070-7ebacf00-df49-11ea-8fd3-f630121ca741.png">
+<img width="1162" alt="Screen Shot 2020-08-15 at 9 15 47 PM" src="https://user-images.githubusercontent.com/66285135/90326081-985c1680-df49-11ea-87a7-3565b798d06f.png">
+<img width="1151" alt="Screen Shot 2020-08-15 at 9 13 40 PM" src="https://user-images.githubusercontent.com/66285135/90326096-d22d1d00-df49-11ea-97b3-4a6ea4084612.png">
+<img width="1077" alt="Screen Shot 2020-08-15 at 10 51 00 PM" src="https://user-images.githubusercontent.com/66285135/90326097-d5c0a400-df49-11ea-9b16-7ad6bf235d94.png">
 
 ## Licensing, Authors, Acknowledgements
 This work is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/). Please refer to Udacity [Terms of Service](https://www.udacity.com/legal) for additional information.
