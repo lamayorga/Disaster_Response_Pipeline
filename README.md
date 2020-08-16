@@ -11,10 +11,10 @@ The disaster message dataset was retrieved from Figure Eight (prior to acquisiti
 This repository was written in HTML and python and requires the following Python libraries: pandas, numpy, re, pickle, nltk, flask, json, plotly, sklearn, sqlalchemy, sys.
 
 ## File Description
-* **data**: This folder contains message and category csv datasets
-* **app**: This folder includes the run.py to initiate the web app along with the html templates for the web app design
-* **process_data.py**: This code inputs csv files, cleans datasets, and creates a SQL database
-* **train_classifier.py**: This code trains the ML model with the SQL database
+* **data**: this folder contains message and category csv datasets
+* **app**: this folder includes the run.py to initiate the web app along with the html templates for the web app design
+* **process_data.py**: this code inputs csv files, cleans datasets, and creates a SQL database
+* **train_classifier.py**: this code trains the ML model with the SQL database
 * **ETL Pipeline Preparation.ipynb**: workspace used to build process_data.py
 * **ML Pipeline Preparation.ipynb**: workspace used to build train_classifier.py
 
