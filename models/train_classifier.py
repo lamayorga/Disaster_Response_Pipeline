@@ -44,8 +44,8 @@ def load_data(database_filepath):
       category_names(str):category names
     """
     # Load data from database
-    engine = create_engine('sqlite:///InsertDatabaseName.db')
-    df = pd.read_sql_table('InsertTableName',engine)
+    engine = create_engine('sqlite:///' + database_filepath)
+    df = pd.read_sql_table('Messages', engine)
     X = df.message.values
     y = df.iloc[:,4:]
     
